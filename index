@@ -1,0 +1,88 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="Images/CC_logo.png" sizes="48x48">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caden's Corner</title>
+<link rel="stylesheet" href="app.css">
+<style>
+    body {
+        overflow-x: hidden;
+    }
+</style>
+</head>
+<body>
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65e7a8b38d261e1b5f6916e5/1ho8elvni';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script--> 
+    <header>
+
+<h2 class="logo">Caden's Corner</h2>
+<nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+    <button class="btnLogin-popup">Login</button>
+</nav>
+
+    </header>
+    <div class="sinfo">
+        <h1>Services</h1>
+        <p>Here You Will Find Everything We Offer!</p>
+    </div>
+
+
+
+
+
+    <div class="order-request">
+        <h2>Order Request</h2>
+        <form action="https://formsubmit.co/order@order.cadenscorner.com" method="POST">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input id="name" type="text" required>
+                <lable>Name</lable>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input id="email" type="email" required>
+                <lable>Email</lable>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input id="design" type="text" required>
+                <lable>What You Want It To Look Like</lable>
+
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">I aggre to the terms & conditions</label>
+            </div>
+            <button id="submit" type="submit" class="submit">Submit</button>
+
+        </form>
+     
+    </div>
+</div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        
+        <script src="app.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"> </script>
+        <script src="https://cadenscorner1.statuspage.io/embed/script.js"></script>
+</body>
+
+</html>
